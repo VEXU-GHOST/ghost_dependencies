@@ -1,0 +1,1 @@
+/usr/bin/c++  -fopenmp -DWITH_OPENMP -pthread -fPIC -O3 -DNDEBUG CMakeFiles/blocksqp_test.dir/blocksqp_test.cpp.o -o ../bin/blocksqp_test  -Wl,-rpath,/home/xander/VEXU_GHOST/09_External/casadi/build/lib ../lib/libcasadi.so.3.7 -ldl 

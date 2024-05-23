@@ -1,0 +1,1 @@
+/usr/bin/c++  -fopenmp -DWITH_OPENMP -pthread -fPIC  -O3 -DNDEBUG CMakeFiles/race_car.dir/race_car.cpp.o -o ../../../bin/race_car   -L/usr/local/lib  -Wl,-rpath,/home/xander/VEXU_GHOST/09_External/casadi/build/lib:/usr/local/lib ../../../lib/libcasadi.so.3.7 -ldl 
