@@ -1,5 +1,5 @@
 Package: ghost-matplotlibcpp-86
 Version: 1.0
-Architecture: i386
+Architecture: amd64
 Maintainer: Xander Wilson <xanderwilson2014@gmail.com>
 Description: Compiled x86 binaries of matplotlib_cpp (VEXU-GHOST fork).
