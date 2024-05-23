@@ -1,0 +1,9 @@
+[submodule "src/ghost_casadi"]
+	path = src/ghost_casadi
+	url = git@github.com:VEXU-GHOST/casadi.git
+[submodule "src/ghost_ipopt"]
+	path = src/ghost_ipopt
+	url = git@github.com:VEXU-GHOST/Ipopt.git
+[submodule "src/ghost_mumps"]
+	path = src/ghost_mumps
+	url = git@github.com:VEXU-GHOST/ThirdParty-Mumps.git
