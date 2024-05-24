@@ -49,4 +49,4 @@ rm -rf ./src/ghost-$pkg-$arch/usr/local
 find /usr/local -name *$filter* | sed -r 's|/[^/]+$||' | sort -u | xargs -I % mkdir -p ./src/ghost-$pkg-$arch%
 
 # Copy files to package directorys
-find /usr/local -name *$filter* | xargs -I % cp % ./src/ghost-$pkg-$arch%
+find /usr/local -name *$filter* | xargs -I % cp -r % ./src/ghost-$pkg-$arch%
