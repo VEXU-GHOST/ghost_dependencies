@@ -1,2 +1,0 @@
-/home/xander/VEXU_GHOST/09_External/casadi/build/language_tests/Fortran/CMakeFiles/edit_cache.dir
-/home/xander/VEXU_GHOST/09_External/casadi/build/language_tests/Fortran/CMakeFiles/rebuild_cache.dir

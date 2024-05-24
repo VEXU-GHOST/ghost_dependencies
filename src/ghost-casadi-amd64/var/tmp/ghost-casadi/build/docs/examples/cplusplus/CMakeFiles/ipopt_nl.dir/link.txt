@@ -1,1 +1,0 @@
-/usr/bin/c++  -fopenmp -DWITH_OPENMP -pthread -fPIC  -O3 -DNDEBUG CMakeFiles/ipopt_nl.dir/ipopt_nl.cpp.o -o ../../../bin/ipopt_nl   -L/usr/local/lib  -Wl,-rpath,/home/xander/VEXU_GHOST/09_External/casadi/build/lib:/usr/local/lib ../../../lib/libcasadi.so.3.7 -ldl 

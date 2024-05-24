@@ -1,1 +1,0 @@
-/usr/bin/c++  -fopenmp -DWITH_OPENMP -pthread -fPIC  -O3 -DNDEBUG CMakeFiles/parametric_nlp.dir/parametric_nlp.cpp.o -o ../../../bin/parametric_nlp   -L/usr/local/lib  -Wl,-rpath,/home/xander/VEXU_GHOST/09_External/casadi/build/lib:/usr/local/lib ../../../lib/libcasadi.so.3.7 -ldl 

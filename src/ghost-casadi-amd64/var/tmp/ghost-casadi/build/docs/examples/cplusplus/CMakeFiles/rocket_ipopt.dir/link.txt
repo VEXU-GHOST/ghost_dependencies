@@ -1,1 +1,0 @@
-/usr/bin/c++  -fopenmp -DWITH_OPENMP -pthread -fPIC  -O3 -DNDEBUG CMakeFiles/rocket_ipopt.dir/rocket_ipopt.cpp.o -o ../../../bin/rocket_ipopt   -L/usr/local/lib  -Wl,-rpath,/home/xander/VEXU_GHOST/09_External/casadi/build/lib:/usr/local/lib ../../../lib/libcasadi.so.3.7 -ldl 

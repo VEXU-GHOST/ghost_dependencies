@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -fopenmp -DWITH_OPENMP -pthread -fPIC -O3 -DNDEBUG -shared  -o ../../lib/_casadi.so CMakeFiles/_casadi.dir/__/casadiPYTHON_wrap.cxx.o  -Wl,-rpath,/home/xander/VEXU_GHOST/09_External/casadi/build/lib: ../../lib/libcasadi.so.3.7 -ldl 
