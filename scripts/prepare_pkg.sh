@@ -38,8 +38,8 @@ pkg=$1
 arch=$(dpkg --print-architecture)
 
 # Check if package list file exists
-if [[ ! -f ./lists/$pkg ]]; then
-    echo "Failure: missing list file for package $pkg."
+if [[ ! -f ./manifests/$pkg ]]; then
+    echo "Failure: missing manifest for package $pkg."
     exit -1
 fi
 
@@ -65,4 +65,4 @@ while read line; do
             ;;
     esac
 
-done < "./lists/$pkg"
+done < "./manifests/$pkg"
