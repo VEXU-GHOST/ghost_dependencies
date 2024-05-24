@@ -48,5 +48,5 @@ rm -rf ./src/ghost-$pkg-$arch/usr/local
 # Create package directory tree
 find /usr/local -name *$filter* | sed -r 's|/[^/]+$||' | sort -u | xargs -I % mkdir -p ./src/ghost-$pkg-$arch%
 
-# Copy files to package directorys
+# Copy files to package directories
 find /usr/local -name *$filter* | xargs -I % cp -r % ./src/ghost-$pkg-$arch%
