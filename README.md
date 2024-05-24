@@ -18,6 +18,6 @@ When adding new submodule packages,
 
 ---
 ### Contact
-Xander Wilson
-- Discord: chief_himself
-- Email: xanderwilson2014@gmail.com
+- Xander Wilson
+  - Discord: chief_himself
+  - Email: xanderwilson2014@gmail.com
