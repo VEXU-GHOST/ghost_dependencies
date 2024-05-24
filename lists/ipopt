@@ -1,0 +1,15 @@
+/usr/local/lib/pkgconfig
+/usr/local/share/doc
+/usr/local/share/java
+---
+/usr/local/lib/libipopt.la
+/usr/local/lib/libipopt.so
+/usr/local/lib/libipopt.so.3
+/usr/local/lib/libipopt.so.3.14.13
+/usr/local/lib/libsipopt.la
+/usr/local/lib/libsipopt.so
+/usr/local/lib/libsipopt.so.3
+/usr/local/lib/libsipopt.so.3.14.13
+/usr/local/lib/pkgconfig/ipopt.pc
+/usr/local/share/doc/ipopt
+/usr/local/share/java/org.coinor.ipopt.jar
