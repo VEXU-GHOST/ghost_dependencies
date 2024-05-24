@@ -1,0 +1,9 @@
+/usr/local/include/coin-or/mumps
+/usr/local/lib/pkgconfig
+---
+/usr/local/include/coin-or/mumps
+/usr/local/lib/libcoinmumps.la
+/usr/local/lib/libcoinmumps.so
+/usr/local/lib/libcoinmumps.so.3
+/usr/local/lib/libcoinmumps.so.3.0.4
+/usr/local/lib/pkgconfig/coinmumps.pc
