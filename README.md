@@ -15,3 +15,9 @@ When adding new submodule packages,
   - Feel free to leave the existing maintainer information if you don't want to change it!
 - Add your new package to the makefile; ensure the new target you create is ran by the 'all' target as well.
 - Build your new package using the makefile and push the resulting changes. 
+
+---
+### Contact
+- Xander Wilson
+  - Discord: chief_himself
+  - Email: xanderwilson2014@gmail.com
