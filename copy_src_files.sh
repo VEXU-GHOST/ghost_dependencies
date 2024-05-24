@@ -3,7 +3,8 @@
 print_help() {
     echo "Usage: $0 [keyword] [pkg_name]"
     echo
-    echo "Copies source files from /usr/local/** to the package destination directory."
+    echo "Copies source files from /usr/local/** to the new package directory."
+    echo "Clears [pkg_dir]/usr/local/** before copying new files."
     echo
     echo
     echo "--- OPTIONS ---"
@@ -40,6 +41,9 @@ fi
 filter=$1
 pkg=$2
 arch=$(dpkg --print-architecture)
+
+# Remove old files
+rm -rf ./src/ghost-$pkg-$arch/usr/local
 
 # Create package directory tree
 find /usr/local -type f -name *$filter* | sed -r 's|/[^/]+$||' | sort -u | xargs -I % mkdir -p ./src/ghost-$pkg-$arch%
