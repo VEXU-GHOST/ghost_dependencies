@@ -8,6 +8,10 @@ Download the required debian and install it using `dpkg -i [pkg_name.deb]`.
 
 ---
 ### For Maintainers
-When using the helper scripts, beware of any files containing the name of two packages; they will cause conflicts and must be manually removed.
-
-Example: <u>**libcasadi**\_nlpsol\_**ipopt**.so</u> will be included both in <u>ghost-casadi</u> AND <u>ghost-ipopt</u>.
+When adding new submodule packages,
+- Determine your system architecture using `dpkg --print-architecture`.
+- Create a new folder for the package following the naming convention.
+- Copy the DEBIAN folder from a different package and change the contents as necessary.
+  - Feel free to leave the existing maintainer information if you don't want to change it!
+- Add your new package to the makefile; ensure the new target you create is ran by the 'all' target as well.
+- Build your new package using the makefile and push the resulting changes. 
