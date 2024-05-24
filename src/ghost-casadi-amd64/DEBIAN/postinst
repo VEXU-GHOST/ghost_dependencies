@@ -1,4 +1,4 @@
 #! /bin/bash
 
-mv /var/tmp/ghost-casadi/* $VEXU_HOME/09_External/casadi
-rm -r /var/tmp/ghost-casadi
+# mv /var/tmp/ghost-casadi/* $VEXU_HOME/09_External/casadi
+# rm -r /var/tmp/ghost-casadi
