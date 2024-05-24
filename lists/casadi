@@ -2,7 +2,6 @@
 /usr/local/include
 /usr/local/lib/cmake
 /usr/local/lib/pkgconfig
-/var/tmp/ghost-casadi
 ---
 /usr/local/bin/casadi-cli
 /usr/local/include/casadi
