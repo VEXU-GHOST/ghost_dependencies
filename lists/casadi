@@ -1,11 +1,15 @@
+/usr/lib/python3/dist-packages
 /usr/local/bin
 /usr/local/include
 /usr/local/lib/cmake
 /usr/local/lib/pkgconfig
 ---
+/usr/lib/python3/dist-packages/casadi
 /usr/local/bin/casadi-cli
 /usr/local/include/casadi
+/usr/local/include/tinyxml2.h
 /usr/local/lib/cmake/casadi
+/usr/local/lib/cmake/tinyxml2
 /usr/local/lib/libcasadi_conic_ipqp.so
 /usr/local/lib/libcasadi_conic_ipqp.so.3.7
 /usr/local/lib/libcasadi_conic_nlpsol.so
@@ -64,4 +68,6 @@
 /usr/local/lib/libcasadi_sundials_common.so.3.7
 /usr/local/lib/libcasadi_xmlfile_tinyxml.so
 /usr/local/lib/libcasadi_xmlfile_tinyxml.so.3.7
+/usr/local/lib/libtinyxml2.a
 /usr/local/lib/pkgconfig/casadi.pc
+/usr/local/lib/pkgconfig/tinyxml2.pc
