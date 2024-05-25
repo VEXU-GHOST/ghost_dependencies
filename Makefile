@@ -25,3 +25,7 @@ plotjuggler:
 plotjuggler-ros:
 	./scripts/prepare_pkg.sh plotjuggler-ros
 	./scripts/build_pkg.sh src/ghost-plotjuggler-ros-$(arch) deb
+
+rplidar:
+	./scripts/prepare_pkg.sh rplidar
+	./scripts/build_pkg.sh src/ghost-rplidar-$(arch) deb
