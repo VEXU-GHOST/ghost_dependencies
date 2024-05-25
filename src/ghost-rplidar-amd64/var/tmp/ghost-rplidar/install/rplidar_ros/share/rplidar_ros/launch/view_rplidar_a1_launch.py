@@ -1,0 +1,1 @@
+/home/xander/VEXU_GHOST/09_External/rplidar_ros/launch/view_rplidar_a1_launch.py
