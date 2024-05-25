@@ -59,16 +59,13 @@ while read line; do
         continue
     fi
 
-    # Replace 'VEXU_HOME' with real value
-    echo "${line/VEXU_HOME/"$VEXU_HOME"}"
-
-    # case $mode in
-    #     'd')
-    #         mkdir -p src/ghost-$pkg-$arch$line
-    #         ;;
-    #     'f')
-    #         cp -r $line src/ghost-$pkg-$arch$line
-    #         ;;
-    # esac
+    case $mode in
+        'd')
+            mkdir -p src/ghost-$pkg-$arch${line/"VEXU_HOME"/"/var/tmp"}
+            ;;
+        'f')
+            cp -r ${line/"VEXU_HOME"/"$VEXU_HOME"} src/ghost-$pkg-$arch${line/"VEXU_HOME"/"/var/tmp"}
+            ;;
+    esac
 
 done < "./manifests/$pkg"
