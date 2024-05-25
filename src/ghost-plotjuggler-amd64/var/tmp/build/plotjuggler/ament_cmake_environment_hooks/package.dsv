@@ -1,0 +1,4 @@
+source;share/plotjuggler/local_setup.bash
+source;share/plotjuggler/local_setup.dsv
+source;share/plotjuggler/local_setup.sh
+source;share/plotjuggler/local_setup.zsh

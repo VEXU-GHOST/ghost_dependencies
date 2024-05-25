@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/home/xander/VEXU_GHOST/build/plotjuggler/3rdparty/QCodeEditor/QCodeEditor_autogen",
+	"CMAKE_BINARY_DIR" : "/home/xander/VEXU_GHOST/build/plotjuggler",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/xander/VEXU_GHOST/build/plotjuggler/3rdparty/QCodeEditor",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/xander/VEXU_GHOST/09_External/plotjuggler/3rdparty/QCodeEditor",
+	"CMAKE_SOURCE_DIR" : "/home/xander/VEXU_GHOST/09_External/plotjuggler",
+	"INCLUDE_DIR" : "/home/xander/VEXU_GHOST/build/plotjuggler/3rdparty/QCodeEditor/QCodeEditor_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/xander/VEXU_GHOST/09_External/plotjuggler/3rdparty/QCodeEditor/resources/default_style.xml",
+		"/home/xander/VEXU_GHOST/09_External/plotjuggler/3rdparty/QCodeEditor/resources/languages/python.xml",
+		"/home/xander/VEXU_GHOST/09_External/plotjuggler/3rdparty/QCodeEditor/resources/languages/lua.xml",
+		"/home/xander/VEXU_GHOST/09_External/plotjuggler/3rdparty/QCodeEditor/resources/languages/cpp.xml",
+		"/home/xander/VEXU_GHOST/09_External/plotjuggler/3rdparty/QCodeEditor/resources/languages/glsl.xml"
+	],
+	"LOCK_FILE" : "/home/xander/VEXU_GHOST/build/plotjuggler/3rdparty/QCodeEditor/CMakeFiles/QCodeEditor_autogen.dir/AutoRcc_qcodeeditor_resources_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qcodeeditor_resources" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_qcodeeditor_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/xander/VEXU_GHOST/build/plotjuggler/3rdparty/QCodeEditor/CMakeFiles/QCodeEditor_autogen.dir/AutoRcc_qcodeeditor_resources_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "/home/xander/VEXU_GHOST/09_External/plotjuggler/3rdparty/QCodeEditor/resources/qcodeeditor_resources.qrc",
+	"VERBOSITY" : 0
+}

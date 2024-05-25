@@ -1,0 +1,6 @@
+/home/xander/VEXU_GHOST/install/plotjuggler/share/plotjuggler/cmake/plotjugglerTargetsExport.cmake
+/home/xander/VEXU_GHOST/install/plotjuggler/share/plotjuggler/cmake/plotjugglerTargetsExport-relwithdebinfo.cmake
+/home/xander/VEXU_GHOST/install/plotjuggler/share/plotjuggler/cmake/export_plotjuggler_qwtExport.cmake
+/home/xander/VEXU_GHOST/install/plotjuggler/share/plotjuggler/cmake/export_plotjuggler_qwtExport-relwithdebinfo.cmake
+/home/xander/VEXU_GHOST/install/plotjuggler/lib/libplotjuggler_base.a
+/home/xander/VEXU_GHOST/install/plotjuggler/lib/libplotjuggler_qwt.a
