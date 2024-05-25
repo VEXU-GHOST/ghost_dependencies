@@ -1,6 +1,6 @@
 arch := $(shell dpkg --print-architecture)
 
-all: casadi ipopt matplotlibcpp mumps plotjuggler
+all: casadi ipopt matplotlibcpp mumps plotjuggler plotjuggler-ros rplidar bt-ros bt-cpp
 
 casadi:
 	./scripts/prepare_pkg.sh casadi
