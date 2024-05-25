@@ -1,0 +1,5 @@
+Package: ghost-bt-ros-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Xander Wilson <xanderwilson2014@gmail.com>
+Description: Compiled x86 binaries of BehaviorTree.ROS2 (VEXU-GHOST fork).
