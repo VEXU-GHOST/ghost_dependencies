@@ -1,6 +1,6 @@
 arch := $(shell dpkg --print-architecture)
 
-all: casadi ipopt matplotlibcpp mumps
+all: casadi ipopt matplotlibcpp mumps plotjuggler
 
 casadi:
 	./scripts/prepare_pkg.sh casadi
@@ -17,3 +17,7 @@ matplotlibcpp:
 mumps:
 	./scripts/prepare_pkg.sh mumps
 	./scripts/build_pkg.sh src/ghost-mumps-$(arch) deb
+
+plotjuggler:
+	./scripts/prepare_pkg.sh plotjuggler
+	./scripts/build_pkg.sh src/ghost-plotjuggler-$(arch) deb
