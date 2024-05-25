@@ -1,0 +1,4 @@
+#! /bin/bash
+
+mv /var/tmp/ghost-plotjuggler-ros/* $VEXU_HOME
+rm -r /var/tmp/ghost-plotjuggler-ros
