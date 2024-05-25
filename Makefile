@@ -33,3 +33,7 @@ rplidar:
 bt-ros:
 	./scripts/prepare_pkg.sh bt-ros
 	./scripts/build_pkg.sh src/ghost-bt-ros-$(arch) deb
+
+bt-cpp:
+	./scripts/prepare_pkg.sh bt-cpp
+	./scripts/build_pkg.sh src/ghost-bt-cpp-$(arch) deb
