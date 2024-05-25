@@ -21,3 +21,7 @@ mumps:
 plotjuggler:
 	./scripts/prepare_pkg.sh plotjuggler
 	./scripts/build_pkg.sh src/ghost-plotjuggler-$(arch) deb
+
+plotjuggler-ros:
+	./scripts/prepare_pkg.sh plotjuggler-ros
+	./scripts/build_pkg.sh src/ghost-plotjuggler-ros-$(arch) deb
