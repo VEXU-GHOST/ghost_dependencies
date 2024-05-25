@@ -1,0 +1,1 @@
+ros_environment;rclcpp;rcpputils;rosbag2;rosbag2_transport;plotjuggler;tf2_ros;tf2_msgs;qtbase5-dev;binutils;libqt5-svg-dev;libqt5-websockets-dev;boost

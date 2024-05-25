@@ -1,0 +1,1 @@
+/home/xander/VEXU_GHOST/build/plotjuggler_ros/ament_cmake_core/plotjuggler_rosConfig.cmake
