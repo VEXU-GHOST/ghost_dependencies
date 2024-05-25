@@ -43,6 +43,9 @@ if [[ ! -f ./manifests/$pkg ]]; then
     exit -1
 fi
 
+# Create directory if needed
+mkdir -p ./src/ghost-$pkg-$arch
+
 # Remove old files
 find ./src/ghost-$pkg-$arch -mindepth 1 -maxdepth 1 | grep -v DEBIAN | xargs rm -rf
 
@@ -56,13 +59,16 @@ while read line; do
         continue
     fi
 
-    case $mode in
-        'd')
-            mkdir -p src/ghost-$pkg-$arch$line
-            ;;
-        'f')
-            cp -r $line src/ghost-$pkg-$arch$line
-            ;;
-    esac
+    # Replace 'VEXU_HOME' with real value
+    echo "${line/VEXU_HOME/"$VEXU_HOME"}"
+
+    # case $mode in
+    #     'd')
+    #         mkdir -p src/ghost-$pkg-$arch$line
+    #         ;;
+    #     'f')
+    #         cp -r $line src/ghost-$pkg-$arch$line
+    #         ;;
+    # esac
 
 done < "./manifests/$pkg"
