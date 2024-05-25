@@ -61,10 +61,10 @@ while read line; do
 
     case $mode in
         'd')
-            mkdir -p src/ghost-$pkg-$arch${line/"VEXU_HOME"/"/var/tmp"}
+            mkdir -p src/ghost-$pkg-$arch${line/"VEXU_HOME"/"/var/tmp/ghost-$pkg"}
             ;;
         'f')
-            cp -r ${line/"VEXU_HOME"/"$VEXU_HOME"} src/ghost-$pkg-$arch${line/"VEXU_HOME"/"/var/tmp"}
+            cp -r ${line/"VEXU_HOME"/"$VEXU_HOME"} src/ghost-$pkg-$arch${line/"VEXU_HOME"/"/var/tmp/ghost-$pkg"}
             ;;
     esac
 
