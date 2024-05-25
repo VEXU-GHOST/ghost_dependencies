@@ -1,0 +1,5 @@
+Package: ghost-plotjuggler-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Xander Wilson <xanderwilson2014@gmail.com>
+Description: Compiled x86 binaries of plotjuggler (VEXU-GHOST fork).
