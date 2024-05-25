@@ -1,0 +1,4 @@
+#! /bin/bash
+
+mv /var/tmp/ghost-rplidar/* $VEXU_HOME
+rm -r /var/tmp/ghost-rplidar
