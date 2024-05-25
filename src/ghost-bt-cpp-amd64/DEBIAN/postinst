@@ -1,0 +1,4 @@
+#! /bin/bash
+
+mv /var/tmp/ghost-bt-cpp/* $VEXU_HOME
+rm -r /var/tmp/ghost-bt-cpp
