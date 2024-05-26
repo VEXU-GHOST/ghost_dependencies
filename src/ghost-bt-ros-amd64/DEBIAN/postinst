@@ -1,4 +1,4 @@
 #! /bin/bash
 
-mv /var/tmp/ghost-bt-ros/* $VEXU_HOME
+cp -r /var/tmp/ghost-bt-ros/* $VEXU_HOME
 rm -r /var/tmp/ghost-bt-ros
