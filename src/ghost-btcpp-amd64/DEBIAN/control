@@ -1,9 +1,6 @@
 Package: ghost-btcpp-amd64
-Version: 4.4.0-0jammy
+Version: 1.0
 Architecture: amd64
-Maintainer: Davide Faconti <davide.faconti@gmail.com>
-Installed-Size: 2738
+Maintainer: Xander Wilson <xanderwilson2014@gmail.com>
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsqlite3-0 (>= 3.10.0), libstdc++6 (>= 12), libzmq5 (>= 4.0.1+dfsg), libsqlite3-dev, libzmq3-dev, ros-humble-ament-index-cpp, ros-humble-rclcpp
-Section: misc
-Priority: optional
-Description: This package provides the Behavior Trees core library.
+Description: Compiled BehaviorTree.CPP binaries (VEXU_GHOST fork).

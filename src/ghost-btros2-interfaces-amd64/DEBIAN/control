@@ -1,9 +1,6 @@
 Package: ghost-btros2-interfaces-amd64
-Version: 0.2.0-0jammy
+Version: 1.0
 Architecture: amd64
-Maintainer: Davide Faconti <davide.faconti@gmail.com>
-Installed-Size: 1051
+Maintainer: Xander Wilson <xanderwilson2014@gmail.com>
 Depends: libc6 (>= 2.4), libpython3.10 (>= 3.10.0), libstdc++6 (>= 4.1.1), ros-humble-fastcdr, ros-humble-action-msgs, ros-humble-rosidl-default-runtime
-Section: misc
-Priority: optional
-Description: ROS2 interfaces, mostly used to demonstrate behaviortree_ros2
+Description: Compiled BehaviorTree.ROS2 interface binaries (VEXU_GHOST fork).

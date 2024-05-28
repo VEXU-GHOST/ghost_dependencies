@@ -2,4 +2,4 @@ Package: ghost-mumps-amd64
 Version: 1.0
 Architecture: amd64
 Maintainer: Xander Wilson <xanderwilson2014@gmail.com>
-Description: Compiled x86 binaries of MUMPS (VEXU-GHOST fork).
+Description: Compiled MUMPS binaries (VEXU_GHOST fork).
