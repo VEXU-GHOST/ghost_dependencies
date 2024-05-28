@@ -1,1 +1,0 @@
-/home/xander/VEXU_GHOST/09_External/rplidar_ros/launch/rplidar_s1_tcp_launch.py

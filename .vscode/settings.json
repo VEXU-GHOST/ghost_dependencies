@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/xander/VEXU_GHOST/install/ghost_msgs/local/lib/python3.10/dist-packages",
+        "/home/xander/VEXU_GHOST/install/ghost_examples/local/lib/python3.10/dist-packages",
+        "/home/xander/VEXU_GHOST/install/ghost_estimation/local/lib/python3.10/dist-packages",
+        "/home/xander/VEXU_GHOST/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/xander/VEXU_GHOST/install/ghost_msgs/local/lib/python3.10/dist-packages",
+        "/home/xander/VEXU_GHOST/install/ghost_examples/local/lib/python3.10/dist-packages",
+        "/home/xander/VEXU_GHOST/install/ghost_estimation/local/lib/python3.10/dist-packages",
+        "/home/xander/VEXU_GHOST/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libzstd.a CMakeFiles/libzstd_static.dir/libzstd_static_autogen/mocs_compilation.cpp.o CMakeFiles/libzstd_static.dir/src/zstd.c.o
-/usr/bin/ranlib libzstd.a

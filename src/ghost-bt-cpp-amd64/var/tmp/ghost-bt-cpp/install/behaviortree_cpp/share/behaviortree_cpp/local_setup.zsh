@@ -1,1 +1,0 @@
-/home/xander/VEXU_GHOST/build/behaviortree_cpp/ament_cmake_environment_hooks/local_setup.zsh
