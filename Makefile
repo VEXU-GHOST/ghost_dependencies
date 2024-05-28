@@ -1,6 +1,6 @@
 arch := $(shell dpkg --print-architecture)
 
-all: casadi ipopt matplotlibcpp mumps rplidar bt-ros bt-cpp
+all: casadi ipopt matplotlibcpp mumps rplidar btcpp btros2 btros2-interfaces
 
 casadi:
 	./scripts/prepare_pkg.sh casadi
@@ -21,8 +21,11 @@ mumps:
 rplidar:
 	./scripts/build_pkg.sh src/ghost-rplidar-$(arch) deb
 
-bt-ros:
-	./scripts/build_pkg.sh src/ghost-bt-ros-$(arch) deb
+btcpp:
+	./scripts/build_pkg.sh src/ghost-btcpp-$(arch) deb
 
-bt-cpp:
-	./scripts/build_pkg.sh src/ghost-bt-cpp-$(arch) deb
+btros2:
+	./scripts/build_pkg.sh src/ghost-btros2-$(arch) deb
+
+btros2-interfaces:
+	./scripts/build_pkg.sh src/ghost-btros2-interfaces-$(arch) deb
