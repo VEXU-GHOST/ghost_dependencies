@@ -1,6 +1,6 @@
 arch := $(shell dpkg --print-architecture)
 
-all: casadi ipopt matplotlibcpp mumps plotjuggler plotjuggler-ros rplidar bt-ros bt-cpp
+all: casadi ipopt matplotlibcpp mumps rplidar bt-ros bt-cpp
 
 casadi:
 	./scripts/prepare_pkg.sh casadi
@@ -18,22 +18,11 @@ mumps:
 	./scripts/prepare_pkg.sh mumps
 	./scripts/build_pkg.sh src/ghost-mumps-$(arch) deb
 
-plotjuggler:
-	./scripts/prepare_pkg.sh plotjuggler
-	./scripts/build_pkg.sh src/ghost-plotjuggler-$(arch) deb
-
-plotjuggler-ros:
-	./scripts/prepare_pkg.sh plotjuggler-ros
-	./scripts/build_pkg.sh src/ghost-plotjuggler-ros-$(arch) deb
-
 rplidar:
-	./scripts/prepare_pkg.sh rplidar
 	./scripts/build_pkg.sh src/ghost-rplidar-$(arch) deb
 
 bt-ros:
-	./scripts/prepare_pkg.sh bt-ros
 	./scripts/build_pkg.sh src/ghost-bt-ros-$(arch) deb
 
 bt-cpp:
-	./scripts/prepare_pkg.sh bt-cpp
 	./scripts/build_pkg.sh src/ghost-bt-cpp-$(arch) deb
