@@ -1,0 +1,9 @@
+Package: ghost-btros2-amd64
+Version: 0.2.0-0jammy
+Architecture: amd64
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Installed-Size: 93
+Depends: ros-humble-behaviortree-cpp, ros-humble-rclcpp, ros-humble-rclcpp-action
+Section: misc
+Priority: optional
+Description: This package provides a ROS2 wrapper, on top of BehaviorTree.CPP.

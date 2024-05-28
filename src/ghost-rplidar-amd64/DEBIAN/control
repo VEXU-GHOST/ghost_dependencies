@@ -1,0 +1,9 @@
+Package: ghost-rplidar-amd64
+Version: 2.1.4-0jammy
+Architecture: amd64
+Maintainer: Wang DeYou <deyou.wang@slamtec.com>
+Installed-Size: 920
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-std-srvs
+Section: misc
+Priority: optional
+Description: The rplidar ros package, support rplidar A1/A2/A3/S1/S2/S3/T1
