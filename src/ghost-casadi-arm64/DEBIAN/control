@@ -1,0 +1,5 @@
+Package: ghost-casadi-arm64
+Version: 1.0
+Architecture: arm64
+Maintainer: Xander Wilson <xanderwilson2014@gmail.com>
+Description: Compiled CasADi binaries (VEXU_GHOST fork).
