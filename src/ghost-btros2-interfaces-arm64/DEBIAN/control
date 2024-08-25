@@ -1,0 +1,6 @@
+Package: ghost-btros2-interfaces-arm64
+Version: 1.0
+Architecture: arm64
+Maintainer: Xander Wilson <xanderwilson2014@gmail.com>
+Depends: libc6 (>= 2.4), libpython3.10 (>= 3.10.0), libstdc++6 (>= 4.1.1), ros-humble-fastcdr, ros-humble-action-msgs, ros-humble-rosidl-default-runtime
+Description: Compiled BehaviorTree.ROS2 interface binaries (VEXU_GHOST fork).

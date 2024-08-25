@@ -1,0 +1,6 @@
+Package: ghost-btros2-arm64
+Version: 1.0
+Architecture: arm64
+Maintainer: Xander Wilson <xanderwilson2014@gmail.com>
+Depends: ghost-btcpp-arm64, ros-humble-rclcpp, ros-humble-rclcpp-action
+Description: Compiled BehaviorTree.ROS2 core binaries (VEXU_GHOST fork).
