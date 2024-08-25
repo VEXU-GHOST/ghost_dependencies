@@ -10,11 +10,23 @@ Download the required debian and install it using `dpkg -i [pkg_name.deb]`.
 ### For Maintainers
 When adding new submodule packages,
 - Determine your system architecture using `dpkg --print-architecture`.
-- Create a new folder for the package following the naming convention.
-- Copy the DEBIAN folder from a different package and change the contents as necessary.
-  - Feel free to leave the existing maintainer information if you don't want to change it!
-- Add your new package to the makefile; ensure the new target you create is ran by the 'all' target as well.
-- Build your new package using the makefile and push the resulting changes. 
+- For Non-ROS packages,
+  - Build the package on a donor machine.
+  - Create a new manifest file following the structure convention (folders, separator, files)
+  - Add a new makefile target for your package:
+    - Invoke prepare_pkg to prepare manifest contents.
+    - Invoke build_pkg to pack contents into a .deb file.
+    - Add new package target to 'all' target.
+  - Build package using makefile, and push new additions.
+- For ROS packages follow [this link](https://gist.github.com/awesomebytes/196eab972a94dd8fcdd69adfe3bd1152), or:
+  - Navigate to package folder (same folder as package.xml).
+  - Run `bloom-generate rosdebian --ros-distro humble; fakeroot debian/rules binary` to create source files
+  - Copy generated package folder (named "ros-humble-..." under the generated "debian" folder) to this repository under src/.
+  - Rename folder to adhere with naming convention. 
+  - Add a new makefile target for your package:
+    - Invoke build_pkg to pack contents into a .deb file.
+    - Add new package target to 'all' target.
+  - Build package using makefile, and push new additions.
 
 ---
 ### Contact
